@@ -22,6 +22,9 @@
     {{- end }}
     {{- end }}
   </h1>
+  <div class="post-meta" style="margin-top: 20px;">
+    {{ .Date }}
+  </div>
   {{- if .Description }}
   <div class="post-description">
     {{ .Description | markdownify }}
